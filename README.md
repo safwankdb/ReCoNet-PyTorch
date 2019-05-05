@@ -18,3 +18,4 @@ The final loss function is:<br>
 ## Requirements
 Run the Requirements.txt file to install all the dependencies.
 ## References
+--> https://arxiv.org/pdf/1807.01197.pdf "ReCoNet: Real-time Coherent Video Style Transfer Network"<br>
