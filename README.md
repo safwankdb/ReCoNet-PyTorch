@@ -15,3 +15,6 @@ The network consists of a multi level temporal loss which focuses on temporal co
 The perceptual losses are calculated using the VGG 16 network, and involve the content loss, style loss and the total variation regularizer. They are calculated on each frame separately and then summed up with the temporal losses for the particular frame.<br>
 The final loss function is:<br>
 ![enter image description here](https://github.com/skq024/Real-time-Coherent-Style-Transfer-For-Videos/blob/master/finalloss.png)
+## Requirements
+Run the Requirements.txt file to install all the dependencies.
+## References
