@@ -18,6 +18,6 @@ The final loss function is:<br>
 ## Requirements
 Run the Requirements.txt file to install all the dependencies.
 ## References
--->Real Time Coherent Video Style Transfer Network [Real Time Coherent Video Style Transfer Network][1].
+-->[Real Time Coherent Video Style Transfer Network][1].
 
 [1]: https://arxiv.org/pdf/1807.01197.pdf      "Real Time Coherent Video Style Transfer Network"
