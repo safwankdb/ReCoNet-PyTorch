@@ -19,5 +19,6 @@ The final loss function is:<br>
 Run the Requirements.txt file to install all the dependencies.
 ## References
 [1]Real Time Coherent Video Style Transfer Network : https://arxiv.org/pdf/1807.01197.pdf <br>
-[2]For gram matrix : https://pytorch.org/tutorials/advanced/neural_style_tutorial.html
-
+[2]For gram matrix : https://pytorch.org/tutorials/advanced/neural_style_tutorial.html <br>
+[3]For network : https://github.com/irsisyphus/reconet/blob/master/network.py <br>
+[4]For warping : https://github.com/NVlabs/PWC-Net/blob/master/PyTorch/models/PWCNet.py
