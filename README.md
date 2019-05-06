@@ -1,5 +1,11 @@
 # Real-time-Coherent-Style-Transfer-For-Videos
-This is a PyTorch implementation of the paper ReCoNet.
+This repository contains a PyTorch implementation of the ReCoNet paper. This is the course project for CS763, IITB.
+
+# Contributors:
+- [Mohd Safwan](https://github.com/safwankdb)
+- [Kushagra Juneja](https://github.com/kushagra1729)
+- [Saksham Khandelwal](https://github.com/skq024)
+
 ## Abstract
 We aim to build a generalisable neural style transfer network for videos with temporal consistency and efficient real time style transfer using any modern GPU. All the past techniques haven't been able to accomplish real-time efficient style transfer either lacking in temporal consistency, nice perceptual style quality or fast processing. Here we have used ReCoNet, which tried to mitigate all these problems.
 ## ReCoNet
