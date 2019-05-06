@@ -21,3 +21,6 @@ Run the Requirements.txt file to install all the dependencies.
 -->[Real Time Coherent Video Style Transfer Network][1].
 
 [1]: https://arxiv.org/pdf/1807.01197.pdf      "Real Time Coherent Video Style Transfer Network"
+-->https://pytorch.org/tutorials/advanced/neural_style_tutorial.html\
+-->https://github.com/irsisyphus/reconet/blob/master/network.py
+-->https://github.com/NVlabs/PWC-Net/blob/master/PyTorch/models/PWCNet.py
