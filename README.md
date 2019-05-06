@@ -10,7 +10,7 @@ The network is illustrated in the figure below:<br>
 
 ![enter image description here](https://github.com/skq024/Real-time-Coherent-Style-Transfer-For-Videos/blob/master/network.png)
 ## Dataset
-We have used Monkaa dataser which contains around 8640 frames and FlyingThings3D dataset which contains about 20150 frames as the training datasets and the MPI Sintel dataset for testing.<br>
+We have used MPI Sintel dataset which contains around 1000 frames and FlyingChairs dataset which contains about 22000 frames as the training datasets and a video clipping of some animated movie for testing.<br>
 We have tried style transfer over the following styles:<br>
 ![autoportrait](https://github.com/skq024/Real-time-Coherent-Style-Transfer-For-Videos/blob/master/styles/autoportrait.jpg)
 ![candy](https://github.com/skq024/Real-time-Coherent-Style-Transfer-For-Videos/blob/master/styles/candy.jpg)
@@ -28,4 +28,5 @@ Run the Requirements.txt file to install all the dependencies.
 [1]Real Time Coherent Video Style Transfer Network : https://arxiv.org/pdf/1807.01197.pdf <br>
 [2]For gram matrix : https://pytorch.org/tutorials/advanced/neural_style_tutorial.html <br>
 [3]For network : https://github.com/irsisyphus/reconet/blob/master/network.py <br>
-[4]For warping : https://github.com/NVlabs/PWC-Net/blob/master/PyTorch/models/PWCNet.py
+[4]For optical flow warping : https://github.com/NVlabs/PWC-Net/blob/master/PyTorch/models/PWCNet.py<br>
+[5]For optical flow read and write utilities : https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html
