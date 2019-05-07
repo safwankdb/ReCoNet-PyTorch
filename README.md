@@ -29,7 +29,14 @@ The network consists of a multi level temporal loss which focuses on temporal co
 The final loss function is:<br>
 ![enter image description here](https://github.com/skq024/Real-time-Coherent-Style-Transfer-For-Videos/blob/master/finalloss.png)
 ## Requirements
-Run the Requirements.txt file to install all the dependencies.
+```bash
+numpy
+PIL
+skimage
+cv2
+torch
+torchvision
+```
 ## References
 [1] Real Time Coherent Video Style Transfer Network : https://arxiv.org/pdf/1807.01197.pdf <br>
 [2] Gram matrix : https://pytorch.org/tutorials/advanced/neural_style_tutorial.html <br>
