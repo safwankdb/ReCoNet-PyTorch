@@ -34,8 +34,8 @@ The final loss function is:<br>
 ## Requirements
 Run the Requirements.txt file to install all the dependencies.
 ## References
-[1]Real Time Coherent Video Style Transfer Network : https://arxiv.org/pdf/1807.01197.pdf <br>
-[2]For gram matrix : https://pytorch.org/tutorials/advanced/neural_style_tutorial.html <br>
-[3]For network : https://github.com/irsisyphus/reconet/blob/master/network.py <br>
-[4]For optical flow warping : https://github.com/NVlabs/PWC-Net/blob/master/PyTorch/models/PWCNet.py<br>
-[5]For optical flow read and write utilities : https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html
+[1] Real Time Coherent Video Style Transfer Network : https://arxiv.org/pdf/1807.01197.pdf <br>
+[2] Gram matrix : https://pytorch.org/tutorials/advanced/neural_style_tutorial.html <br>
+[3] ReCoNet Model : https://github.com/irsisyphus/reconet/blob/master/network.py <br>
+[4] Optical flow warping : https://github.com/NVlabs/PWC-Net/blob/master/PyTorch/models/PWCNet.py<br>
+[5] Optical flow I/O : https://lmb.informatik.uni-freiburg.de/resources/datasets/SceneFlowDatasets.en.html
