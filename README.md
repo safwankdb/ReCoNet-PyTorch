@@ -15,14 +15,16 @@ Only the encoder and decoder run during inference which makes ReCoNet very effic
 The network is illustrated in the figure below:<br>
 
 ![ReCoNet Structure](https://github.com/skq024/Real-time-Coherent-Style-Transfer-For-Videos/blob/master/network.png)
+
 ## Dataset
 We have used MPI Sintel dataset which contains around 1000 frames and FlyingChairs dataset which contains about 22000 frames as the training datasets and a video clipping of some animated movie for testing.<br>
 We have tried style transfer over the following styles:<br>
-![autoportrait](styles/autoportrait.jpg)
-![candy](styles/candy.jpg)
-![composition](styles/composition.jpg )
-![edtaonisl](styles/edtaonisl.jpg )
-![udnie](styles/udnie.jpg)
+<div align='center'>
+  <img src="styles/autoportrait.jpg" alt="autoportrait" height="380"  width="200"/>
+  <img src="styles/candy.jpg" alt="candy" height="380" width="200"/>
+  <img src="styles/composition.jpg" alt="composition" height="380" width="200"/>
+  <img src="styles/edtaonisl.jpg" alt="edtaonisl" height="380" width="200"/>
+</div>
 
 ## Loss functions and optimisation
 The network consists of a multi level temporal loss which focuses on temporal coherence at both high level feature maps and the final stylised output. The high level features do not involve the effect of luminance and hence, whereas the finalised output has a luminance term included.<br>
