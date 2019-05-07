@@ -18,11 +18,12 @@ The network is illustrated in the figure below:<br>
 ## Dataset
 We have used MPI Sintel dataset which contains around 1000 frames and FlyingChairs dataset which contains about 22000 frames as the training datasets and a video clipping of some animated movie for testing.<br>
 We have tried style transfer over the following styles:<br>
-![autoportrait](https://github.com/skq024/Real-time-Coherent-Style-Transfer-For-Videos/blob/master/styles/autoportrait.jpg)
-![candy](https://github.com/skq024/Real-time-Coherent-Style-Transfer-For-Videos/blob/master/styles/candy.jpg)
-![composition](https://github.com/skq024/Real-time-Coherent-Style-Transfer-For-Videos/blob/master/styles/composition.jpg )
-![edtaonisl](https://github.com/skq024/Real-time-Coherent-Style-Transfer-For-Videos/blob/master/styles/edtaonisl.jpg )
-![udnie](https://github.com/skq024/Real-time-Coherent-Style-Transfer-For-Videos/blob/master/styles/udnie.jpg )
+![autoportrait](styles/autoportrait.jpg)
+![candy](styles/candy.jpg)
+![composition](styles/composition.jpg )
+![edtaonisl](styles/edtaonisl.jpg )
+![udnie](styles/udnie.jpg)
+
 ## Loss functions and optimisation
 The network consists of a multi level temporal loss which focuses on temporal coherence at both high level feature maps and the final stylised output. The high level features do not involve the effect of luminance and hence, whereas the finalised output has a luminance term included.<br>
 The perceptual losses are calculated using the VGG 16 network, and involve the content loss, style loss and the total variation regularizer. They are calculated on each frame separately and then summed up with the temporal losses for the particular frame.<br>
