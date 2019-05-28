@@ -1,4 +1,4 @@
-# Real-time-Coherent-Style-Transfer-For-Videos
+# ReCoNet-PyTorch
 This repository contains a PyTorch implementation of the ReCoNet paper. This is the course project for CS763, IITB.
 
 # Contributors:
