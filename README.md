@@ -1,5 +1,5 @@
 # ReCoNet-PyTorch
-This repository contains a PyTorch implementation of the ReCoNet paper. This is the course project for CS763, IITB.
+This repository contains a PyTorch implementation of the [ReCoNet paper](https://arxiv.org/pdf/1807.01197.pdf). This is the course project for CS763, IITB.
 
 ### Contributors:
 - [Mohd Safwan](https://github.com/safwankdb)
