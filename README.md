@@ -35,9 +35,9 @@ The final loss function is:<br>
 ### Requirements
 ```bash
 numpy
-PIL
-skimage
-cv2
+Pillow
+scikit-image
+opencv-python
 torch
 torchvision
 ```
